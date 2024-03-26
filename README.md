@@ -1,3 +1,30 @@
+# Frontend para Open-Inventory
+Aplicación web para el manejo de inventario de la ayudantía de laboratorio de desarrollo de Software de la Universidad Federico Santa María, Campus San Joaquín
+
+## Instrucciones de uso
+Es importante tener instalado docker
+
+### Para hacer cambios
+- Clonar el repo
+- Ejecutar el siguiente comando en la ruta donde guardó el repo
+```
+npm install
+```
+- Puede probar sus cambios localmente ejecutando
+```
+npm run dev
+```
+- Realizar sus cambios en el código fuente
+- Subir los cambios a GitHub
+
+### Para probar/ejecutar
+- Ejecutar el siguiente comando
+```
+docker compose up
+```
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
