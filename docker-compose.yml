@@ -1,0 +1,7 @@
+services: 
+  app: 
+    build: .
+    image: open-inventory
+    container_name: open-inventory
+    ports: 
+      - 3001:3000
